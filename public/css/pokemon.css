@@ -1,0 +1,59 @@
+*{
+    font-family: 'Permanent Marker', cursive;
+}
+body{
+    background-color: #FFEC33;
+}
+p{
+    font-size: 2em;
+}
+
+.poke-image img{
+    float:left;
+    margin: 0 10px 0 0;
+}
+
+.pokemonContainer{
+    margin-top: 30px;
+    min-height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pokemon {
+    border: #1b1e21 2px solid;
+    background-color: lightgrey;
+    margin: 10px 0 10px 0;
+}
+.poke-name {
+    vertical-align: middle;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.logo{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.buscador{
+    width: 50%;
+    //display: flex;
+    margin-right: 10%;
+    margin-left : 25%;
+    padding: 1em 0;
+}
+.repo {
+    display: flex;
+    float: right;
+    margin: 10px 50px 0 0;
+}
